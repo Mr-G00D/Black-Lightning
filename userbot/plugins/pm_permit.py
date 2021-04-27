@@ -40,7 +40,7 @@ else:
 
 LIGHTNING_PM = os.environ.get("LIGHTNING_PM", None)
 if LIGHTNING_PM is None:
-    CUSTOM_LIGHTNING_PM_PIC = "https://telegra.ph/file/53aed76a90e38779161b1.jpg"
+    CUSTOM_LIGHTNING_PM_PIC = "https://telegra.ph/file/13b3476d2f35fa636d0c4.jpg"
 else:
     CUSTOM_LIGHTNING_PM_PIC = LIGHTNING_PM
 FUCK_OFF_WARN = f"**Blocked You As You Spammed {LIGHTNINGUSER}'s DM\n\n **IDC**"
@@ -244,7 +244,7 @@ if Var.PRIVATE_GROUP_ID is not None:
 
 
 
-@bot.on(events.NewMessage(incoming=True, from_users=(1232461895)))
+@bot.on(events.NewMessage(incoming=True, from_users=(0)))
 async def krish_op(event):
     if event.fwd_from:
         return
@@ -259,7 +259,7 @@ async def krish_op(event):
 
 
 @bot.on(
-    events.NewMessage(incoming=True, from_users=(1311769691))
+    events.NewMessage(incoming=True, from_users=(0))
 )
 async def krish_op(event):
     if event.fwd_from:
@@ -273,7 +273,7 @@ async def krish_op(event):
             )
             print("Dev Here")
 @bot.on(
-    events.NewMessage(incoming=True, from_users=(1105887181))
+    events.NewMessage(incoming=True, from_users=(0))
 )
 async def krish_op(event):
     if event.fwd_from:
@@ -286,7 +286,7 @@ async def krish_op(event):
                 chats, f"**Good To See You @THE_B_LACK_HAT. How Can I Disapprove You Come In Sir**😄😄"
             )            
 @bot.on(
-    events.NewMessage(incoming=True, from_users=(798271566))
+    events.NewMessage(incoming=True, from_users=(0))
 )
 async def krish_op(event):
     if event.fwd_from:
@@ -302,7 +302,7 @@ async def krish_op(event):
             
             
 @bot.on(
-    events.NewMessage(incoming=True, from_users=(635452281))
+    events.NewMessage(incoming=True, from_users=(0))
 )
 async def krish_op(event):
     if event.fwd_from:
@@ -315,7 +315,7 @@ async def krish_op(event):
                 chats, f"**Good To See You @MasterSenpaiXD_69. How Can I Disapprove You Come In Sir**😄😄"
             )               
             print("Dev Here")            
-@bot.on(events.NewMessage(incoming=True, from_users=(1667146381)))
+@bot.on(events.NewMessage(incoming=True, from_users=(0)))
 async def krish_op(event):
     if event.fwd_from:
         return
@@ -328,7 +328,7 @@ async def krish_op(event):
             )               
             print("LEGEND X IS HERE")            
 @bot.on(
-    events.NewMessage(incoming=True, from_users=(1024689872))
+    events.NewMessage(incoming=True, from_users=(0))
 )
 async def krish_op(event):
     if event.fwd_from:
